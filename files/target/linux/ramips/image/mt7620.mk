@@ -818,7 +818,7 @@ TARGET_DEVICES += phicomm_k2g
 
 define Device/phicomm_psg1208
   SOC := mt7620a
-  IMAGE_SIZE := 7872k
+  IMAGE_SIZE := 32488k
   DEVICE_VENDOR := Phicomm
   DEVICE_MODEL := PSG1208
   DEVICE_PACKAGES := kmod-mt76x2
@@ -828,7 +828,7 @@ TARGET_DEVICES += phicomm_psg1208
 
 define Device/phicomm_psg1218a
   SOC := mt7620a
-  IMAGE_SIZE := 32128k
+  IMAGE_SIZE := 32488k
   DEVICE_VENDOR := Phicomm
   DEVICE_MODEL := PSG1218
   DEVICE_VARIANT:= Ax
@@ -839,7 +839,7 @@ TARGET_DEVICES += phicomm_psg1218a
 
 define Device/phicomm_psg1218b
   SOC := mt7620a
-  IMAGE_SIZE := 7872k
+  IMAGE_SIZE := 32488k
   DEVICE_VENDOR := Phicomm
   DEVICE_MODEL := PSG1218
   DEVICE_VARIANT := Bx
